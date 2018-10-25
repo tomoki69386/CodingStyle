@@ -120,7 +120,7 @@ extension UIView {
 # ファイフォーマット
 以下の順に書く。
 
-```swift
+```swift UIViewController.swift
 // 1
 import UIKit
 
@@ -146,6 +146,8 @@ extension ViewController: UITableViewDelegate {
 - メソッドの戻り値の->の前後にはスペースを1つおく。
 - コロンの前にはスペースを入れず、コロンの後ろに1つスペースを入れる
 - {}の前後にはスペースを1つおく。
+
+良い例
 
 ```swift
 func something(number: Int) -> Int {
@@ -179,6 +181,8 @@ extension ViewController: UITableViewDelegate {
 
 }
 ```
+
+悪い例
 
 ```swift
 class ViewController: UIViewController, UITableViewDataSource {

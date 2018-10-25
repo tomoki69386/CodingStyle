@@ -1,20 +1,22 @@
 # プロジェクトのファイル管理
 
 ```
-- myAppName
-   - StoryBoard
-     - Home
+-myAppName
+   -StoryBoard
+     -Home
        Home.storyboard
-   - Model
-   - View
-     - Home
+   -Model
+     -Todo
+       Todo.swift
+   -View
+     -Home
        HomeViewController.swift
-       - Cell
+       -Cell
          HomeTableViewCell.swift
-   - Extension
+   -Extension
      UIView+boder.swift
    Assets.xcassets
    LaundhScreen.storyboard
    info.plist
-- Products
+-Products
 ``` 

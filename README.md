@@ -3,6 +3,11 @@
 # 目次
 
 -[命名規則](#命名規則)
+-[ファイルフォーマット](#ファイルフォーマット)
+-[アクセス制御](#アクセス制御)
+-[変数](#変数)
+-[型](#型)
+-[制御構文](#制御構文)
 
 # 命名規則
 
@@ -68,8 +73,8 @@ enum SomeEnum {
 悪い例
 
 ```swift
-let HomeNumber: Int
-func HomeMethod() {
+let HogeNumber: Int
+func HogeMethod() {
 
 }
 
@@ -97,7 +102,7 @@ let userID: String = ...
 extensionのみのファイル名は**UIView+機能名.swift** とする。
 extensionは機能単位でグルーピングする。
 
-**良い例**
+良い例
 
 UIView+Boder.swift
 
@@ -117,10 +122,10 @@ extension UIView {
 }
 ```
 
-# ファイフォーマット
+# ファイルフォーマット
 以下の順に書く。
 
-```swift UIViewController.swift
+```swift
 // 1
 import UIKit
 
